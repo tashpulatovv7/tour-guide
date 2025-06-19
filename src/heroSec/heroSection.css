@@ -1,0 +1,259 @@
+.top-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 40px 200px;
+}
+
+.top-header svg {
+	margin-top: 15px;
+}
+
+.top-header button {
+	background-color: #ffda32;
+	border: none;
+	font-size: 16px;
+	padding: 14px 43px;
+	border-radius: 3px;
+}
+
+nav {
+	margin-left: auto;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 30px;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+li {
+	margin-top: 15px;
+}
+
+.hero-section {
+	background-size: cover;
+	background-position: center;
+	min-height: 90vh;
+	color: #222;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: Mulish;
+}
+
+.hero-header h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #222;
+	font-family: Volkhov;
+}
+
+.hero-header p {
+	max-width: 600px;
+	margin: 1rem auto;
+	color: #444;
+}
+
+.video-text {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-video-button {
+	background: rgba(255, 255, 255, 0.7);
+	border: none;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.hero-video-icon {
+	font-size: 32px;
+	color: #00bfae;
+}
+
+.hero-video-text {
+	margin-top: 8px;
+	font-weight: 500;
+}
+
+.hero-search-box {
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 5px 30px 0px #7bbcb080;
+	padding: 1.5rem 2rem;
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	bottom: -60px;
+	transform: translateX(-50%);
+	min-width: 800px;
+}
+
+.hero-search-box div {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-search-box label {
+	font-weight: 600;
+	color: #00bfae;
+	margin-bottom: 4px;
+}
+
+.hero-search-box input {
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+
+.hero-search-button {
+	background: #ffd600;
+	color: #222;
+	border: none;
+	border-radius: 30px;
+	padding: 0.8rem 2.5rem;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0px 8px 20px 0px #ffda3280;
+}
+
+.explore-cities-section {
+	margin: 120px auto 0 auto;
+	max-width: 1200px;
+	text-align: center;
+}
+
+.explore-title {
+	font-size: 2.5rem;
+	font-family: Volkhov, serif;
+	font-weight: 700;
+	color: #222;
+	margin-bottom: 10px;
+}
+
+.explore-subtitle {
+	color: #888;
+	font-size: 1.1rem;
+	margin-bottom: 32px;
+}
+
+.city-filters {
+	display: flex;
+	justify-content: center;
+	gap: 18px;
+	margin-bottom: 32px;
+	flex-wrap: wrap;
+}
+
+.city-btn {
+	border: 1.5px solid #b7d2c7;
+	background: #fff;
+	color: #222;
+	font-size: 1rem;
+	border-radius: 24px;
+	padding: 10px 32px;
+	cursor: pointer;
+	transition: 0.2s, color 0.2s;
+}
+
+.city-btn.active,
+.city-btn:hover {
+	background: #7bbcb0;
+	color: #fff;
+	box-shadow: 0 4px 16px #7bbcb040;
+}
+
+.city-main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.city-main-img {
+	width: 100%;
+	max-width: 1000px;
+	border-radius: 4px;
+	object-fit: cover;
+	box-shadow: 0 8px 32px #7bbcb040;
+}
+
+.city-info-card {
+	background: #f8fcfd;
+	border-radius: 12px;
+	box-shadow: 0 8px 32px #7bbcb040;
+	padding: 36px 32px 32px 32px;
+	margin-top: -60px;
+	max-width: 900px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+	z-index: 2;
+}
+
+.city-info-card h3 {
+	font-size: 2.5rem;
+	font-family: Volkhov, serif;
+	font-weight: 700;
+	color: #222;
+	margin-bottom: 12px;
+}
+
+.city-info-card p {
+	color: #888;
+	font-size: 1.1rem;
+	margin-bottom: 24px;
+	max-width: 600px;
+}
+
+.city-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.tag {
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 8px 18px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 2px 8px #7bbcb020;
+	margin-bottom: 8px;
+}
+.tag-purple {
+	color: #a259e6;
+	background: #f6edfd;
+}
+.tag-green {
+	color: #4cb78a;
+	background: #eafaf3;
+}
+.tag-yellow {
+	color: #ffb800;
+	background: #fff8e1;
+}
+.tag-red {
+	color: #ff5c5c;
+	background: #fff0f0;
+}
+.tag-blue {
+	color: #3b82f6;
+	background: #eaf3ff;
+}
