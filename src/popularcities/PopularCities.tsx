@@ -3,7 +3,7 @@ import { FaBriefcase, FaBus, FaMapMarkerAlt, FaTaxi, FaTree } from 'react-icons/
 
 import alaskaImage from '../assets/alaska.png';
 
-import './PopularCities.css';
+import './popularCities.css';
 
 const cities = ['New York', 'California', 'Alaska', 'Sidney', 'Dubai', 'London', 'Tokyo', 'Delhi'];
 

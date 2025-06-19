@@ -5,7 +5,7 @@ import magic from '../assets/magic.png';
 import vintage from '../assets/vintage.png';
 import westminster from '../assets/westminster.png';
 
-import './TourCards.css';
+import './tourCards.css';
 
 interface TourCardProps {
 	image: string;
