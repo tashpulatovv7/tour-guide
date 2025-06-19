@@ -257,3 +257,88 @@ li {
 	color: #3b82f6;
 	background: #eaf3ff;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+	.hero-search-box {
+		min-width: 90%;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.hero-search-box div {
+		flex: 1;
+		min-width: 200px;
+	}
+
+	.hero-header h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.top-header {
+		margin: 10px 20px 150px;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	nav {
+		order: 3;
+		width: 100%;
+	}
+
+	ul {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.hero-header h1 {
+		font-size: 2rem;
+		padding: 0 20px;
+	}
+
+	.hero-header p {
+		padding: 0 20px;
+	}
+
+	.hero-search-box {
+		padding: 1rem;
+		bottom: -80px;
+	}
+
+	.hero-search-button {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.explore-cities-section {
+		margin: 140px auto 0 auto;
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.top-header button {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+
+	.hero-header h1 {
+		font-size: 1.8rem;
+	}
+
+	.hero-video-button {
+		width: 50px;
+		height: 50px;
+	}
+
+	.hero-video-icon {
+		font-size: 24px;
+	}
+
+	.explore-title {
+		font-size: 2rem;
+	}
+}
